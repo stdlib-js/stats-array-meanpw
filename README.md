@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import meanpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-meanpw@deno/mod.js';
+import meanpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-meanpw@v0.1.0-deno/mod.js';
 ```
 
 #### meanpw( x )
@@ -89,7 +89,7 @@ The function has the following parameters:
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import meanpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-meanpw@deno/mod.js';
+import meanpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-meanpw@v0.1.0-deno/mod.js';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
